@@ -1,0 +1,8 @@
+.border{
+    border-radius: 10px;
+    width: 280px;
+}
+.hover:hover{
+margin:0 !important;
+    transition: 1s;
+}
