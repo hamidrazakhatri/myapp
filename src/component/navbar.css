@@ -1,0 +1,33 @@
+.px{
+    padding-left: 200px;
+}
+
+.top-fixed{
+    /* position: fixed; */
+    width: 100%;
+}
+.button__margin{
+    margin-right: 140px !important;
+    background-color:crimson !important;
+    border: none;
+width: 120px;
+padding: 15px;
+    border-radius: 20px;
+}
+.hover__li{
+    margin-left: 10px;
+}
+.hover__li:hover {
+    border-bottom: 2px solid rgb(158, 55, 210);
+    /* transition: 0.8; */
+  }
+  .button__margin:hover {
+    margin-bottom: 8px;
+    transition: 3s;
+    }
+@media only screen and(max-width:468pxpx){
+    .px{
+        /* padding-right: 200px !important; */
+        margin-right: 200px !important;
+    }
+}
